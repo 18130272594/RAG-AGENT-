@@ -1,6 +1,6 @@
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.document_loaders import TextLoader
-loader = TextLoader("data/ll.text", encoding="utf-8")
+loader = TextLoader("../data/ll.text", encoding="utf-8")
 docs = loader.load()
 
 splitter = RecursiveCharacterTextSplitter(

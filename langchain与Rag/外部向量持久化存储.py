@@ -12,7 +12,7 @@ ve_core=Chroma(
     persist_directory="./哇哇"
 )
 loader=CSVLoader(
-    file_path="./data/yy.csv",
+    file_path="../data/yy.csv",
     encoding="utf-8",
     source_column="source"
 )

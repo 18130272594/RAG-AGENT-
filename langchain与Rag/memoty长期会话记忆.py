@@ -71,7 +71,7 @@ base_chain = prompt_template | print_prompt | model | str_parser
 
 
 def get_history(session_id):
-    return FileChatMessageHistory(session_id + ".json", "history")
+    return FileChatMessageHistory(session_id + ".json", "../history")
 
 
 def chat(session_id, question):

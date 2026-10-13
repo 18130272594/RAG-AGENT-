@@ -2,7 +2,7 @@ from langchain_community.document_loaders import JSONLoader
 from openai.types.conversations import text_content
 
 LOADER = JSONLoader(
-    file_path="./data/stu.json",
+    file_path="../data/stu.json",
     jq_schema=".name",
     text_content=True,
     # json_lines=True
